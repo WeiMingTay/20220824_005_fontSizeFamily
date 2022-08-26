@@ -1,18 +1,18 @@
 /* === fonts === */
 @font-face {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bodoni Moda';
     src: url(../fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
 }
 @font-face {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 @font-face {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 @font-face {
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Yusei Magic';
     src: url(../fonts/Yusei_Magic/YuseiMagic-Regular.ttf);
 }
 /* ==========
@@ -42,6 +42,9 @@ input, select {
     margin: 0 auto;
     margin-top: 1rem;
     padding: .3rem;
+}
+#fontFamily option{
+    font-family: 'Courier New', Courier, monospace;
 }
 /* === Ausgabefeld === */
 .ausgabe {
