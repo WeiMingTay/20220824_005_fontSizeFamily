@@ -16,6 +16,14 @@ function selectFontFamily() {
 	fontFamily = document.getElementById('fontFamily').value;
 	ausgabeFeld.style.fontFamily = fontFamily;
 }
+
+// Color
+function changeColour() {
+  color = document.getElementById("colour");
+  console.log(color.value);
+  document.getElementById("ausgabeFeld").style.color=color.value
+}
+
 // text value
 let text = document.getElementById("textValue");
 function typeText() {

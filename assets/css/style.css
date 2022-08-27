@@ -34,8 +34,8 @@ section {
     margin: 10vh auto;
     width: 70vw;
     max-width: 500px;
-    height: 44vh;
     text-align: center;
+    padding-bottom: .5rem;
 }
 input, select {
     display: block;
