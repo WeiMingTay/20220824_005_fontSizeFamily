@@ -25,6 +25,7 @@ Allgemein
 }
 body {
     background-color: darkslategray;
+    accent-color: darkslategray;
 }
 /* ==========
 MAIN
@@ -32,16 +33,22 @@ MAIN
 section {
     background-color: #fff;
     margin: 10vh auto;
-    width: 70vw;
-    max-width: 500px;
+        max-width: 500px;
     text-align: center;
-    padding-bottom: .5rem;
+    padding: 2rem;
+}
+h1 {
+    font-size: 2rem;
 }
 input, select {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
-    padding: .3rem;
+    padding: .3rem 1rem;
+    font-family: inherit;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 10px -1px lightgray;
 }
 #fontFamily option{
     font-family: 'Courier New', Courier, monospace;
@@ -49,7 +56,7 @@ input, select {
 /* === Ausgabefeld === */
 .ausgabe {
     border: 1px solid black;
-    margin: .5rem 1rem;
+    margin: .5rem auto;
     height: 14vh;
     display: flex;
     align-items: center;
@@ -59,7 +66,7 @@ p {
 }
 /* ===== CSS/ Javascript Magic ===== */
 /* font-family */
-.bodoniModa {
+/* .bodoniModa {
     font-family: 'Bodoni Moda', serif;
 }
 .openSans {
@@ -70,4 +77,4 @@ p {
 }
 .yuseiMagic {
     font-family: 'Yusei Magic', sans-serif;
-}
+} */
